@@ -1,7 +1,7 @@
 export default function Header() {
     return (
-        <header>
+        <head >
             <h1>Albums</h1>
-        </header>
+        </head>
     )
 }

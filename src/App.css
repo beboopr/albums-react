@@ -4,7 +4,7 @@
 
 header {
   border: 2px solid red;
-  margin: cal(1em + 1vw);
+  margin: calc(1em + 1vw);
 }
 
 .album-list {
@@ -13,6 +13,11 @@ header {
 }
 
 .album {
+  border: 2px solid grey;
+  margin: 1em;
+}
+
+.add-album {
   border: 2px solid grey;
   margin: 1em;
 }
