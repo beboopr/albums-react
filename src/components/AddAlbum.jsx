@@ -13,7 +13,7 @@ export default function AddAlbum({ setToggle, toggle }) {
             return
         }
         const newAlbum = { artist, album, year }
-        fetch('https://albums-api-nj.web.app/albums', {
+        fetch('https://albums-api-ed.web.app/albums', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
