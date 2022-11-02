@@ -49,6 +49,7 @@ export default function AddAlbum({ setToggle, toggle }) {
                         value={year} />
                 </label><br /><br />
                 <input type="submit" value="Add Album" />
+                
             </form>
 
         </section>
